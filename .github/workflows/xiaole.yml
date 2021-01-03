@@ -34,6 +34,6 @@ jobs:
           npm install
       - name: '运行 【小乐签到脚本】'
         run: |
-          node jd_bean_sign.js
+          node xiaoleziye.js
         env:
           JD_COOKIE: ${{ secrets.XIAOLE_COOKIE }}
